@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iRoyalty Studio | Procedurally synthesized game audio</title>
+<meta name="description" content="iRoyalty Studio makes game sound effects synthesized from original code. First pack: Combo Ladder, casual reward and feedback SFX (coming soon).">
+<meta property="og:title" content="iRoyalty Studio | Procedurally synthesized game audio">
+<meta property="og:description" content="iRoyalty Studio makes game sound effects synthesized from original code. First pack: Combo Ladder, casual reward and feedback SFX (coming soon).">
+<meta property="og:image" content="assets/img/og-1200x630.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><img src="assets/img/iroyalty-profile-512.png" alt="">iRoyalty Studio</a>
+    <nav aria-label="Main"><ul>
+      <li><a href="index.html#packs">Packs</a></li>
+      <li><a href="index.html#listen">Listen</a></li>
+      <li><a href="index.html#how">How it's made</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul></nav>
+  </div>
+</header>
+<main>
+  <div class="wrap hero">
+    <p class="eyebrow">Game audio studio</p>
+    <h1>Sound effects built from code, tuned for game feel.</h1>
+    <p class="lead">iRoyalty Studio designs game sound effects by synthesizing every sound with original code: no recordings, no sample libraries. The first pack, Combo Ladder, is in production for casual and mobile games.</p>
+    <a class="btn" href="#listen">Listen to the preview</a><a class="btn ghost" href="contact.html">Contact</a>
+  </div>
+
+  <section id="packs">
+    <div class="wrap pack">
+      <div>
+        <span class="badge">Coming soon</span>
+        <h2>Combo Ladder: Casual Reward &amp; Feedback SFX</h2>
+        <p class="note" style="font-size:16px">A sound effects pack for match-3, puzzle, idle and other casual games. Its centrepiece is the combo ladder: families of sounds tuned to rise step by step, so each hit in a streak sounds a little bigger than the last. It also covers coins and gems, pops, reward chimes, success and fail stingers, star ratings, countdowns, unlocks, boosters and UI buttons.</p>
+        <ul class="specs">
+          <li><b>Format:</b> WAV, 48 kHz, 24-bit</li>
+          <li><b>Mastering:</b> true peak at or below -1 dBTP, trimmed, with short fades</li>
+          <li><b>Naming:</b> consistent, e.g. <code>CL_Coin_Pickup_01.wav</code>, sorted by category</li>
+          <li><b>Status:</b> in production; the sounds on this page are from the current prototype batch</li>
+          <li><b>Availability:</b> planned for the Unity Asset Store; not yet released</li>
+        </ul>
+      </div>
+      <div class="player" id="listen">
+        <h3>Preview montage</h3>
+        <p class="note">About 30 seconds of prototype sounds from Combo Ladder.</p>
+        <audio controls preload="metadata" src="assets/audio/ComboLadder_Preview.mp3">Your browser does not support the audio element. <a href="assets/audio/ComboLadder_Preview.mp3">Download the preview (MP3)</a>.</audio>
+        <ul class="sounds" aria-label="Individual sounds">
+          <li class="sound"><button type="button" data-src="assets/audio/CL_Combo_Glass_Ladder_Steps01-08.mp3" aria-pressed="false" aria-label="Play Glass combo ladder, steps 1 to 8 in sequence">&#9654;</button><span>CL_Combo_Glass_Ladder_Steps01-08<small>Glass combo ladder, steps 1 to 8 in sequence</small></span></li>
+          <li class="sound"><button type="button" data-src="assets/audio/CL_Combo_Pluck_Ladder_Steps01-08.mp3" aria-pressed="false" aria-label="Play Pluck combo ladder, steps 1 to 8 in sequence">&#9654;</button><span>CL_Combo_Pluck_Ladder_Steps01-08<small>Pluck combo ladder, steps 1 to 8 in sequence</small></span></li>
+          <li class="sound"><button type="button" data-src="assets/audio/CL_Coin_Pickup_01.mp3" aria-pressed="false" aria-label="Play Coin pickup">&#9654;</button><span>CL_Coin_Pickup_01<small>Coin pickup</small></span></li>
+          <li class="sound"><button type="button" data-src="assets/audio/CL_Gem_Pickup_02.mp3" aria-pressed="false" aria-label="Play Gem pickup">&#9654;</button><span>CL_Gem_Pickup_02<small>Gem pickup</small></span></li>
+          <li class="sound"><button type="button" data-src="assets/audio/CL_Bubble_Burst_01.mp3" aria-pressed="false" aria-label="Play Bubble pop">&#9654;</button><span>CL_Bubble_Burst_01<small>Bubble pop</small></span></li>
+          <li class="sound"><button type="button" data-src="assets/audio/CL_UI_Button_Confirm_01.mp3" aria-pressed="false" aria-label="Play Button confirm">&#9654;</button><span>CL_UI_Button_Confirm_01<small>Button confirm</small></span></li>
+          <li class="sound"><button type="button" data-src="assets/audio/CL_Star_Rating_03.mp3" aria-pressed="false" aria-label="Play Star rating, third star">&#9654;</button><span>CL_Star_Rating_03<small>Star rating, third star</small></span></li>
+          <li class="sound"><button type="button" data-src="assets/audio/CL_Chime_LevelUp_01.mp3" aria-pressed="false" aria-label="Play Level-up chime">&#9654;</button><span>CL_Chime_LevelUp_01<small>Level-up chime</small></span></li>
+          <li class="sound"><button type="button" data-src="assets/audio/CL_Stinger_Success_01.mp3" aria-pressed="false" aria-label="Play Success stinger">&#9654;</button><span>CL_Stinger_Success_01<small>Success stinger</small></span></li>
+          <li class="sound"><button type="button" data-src="assets/audio/CL_Stinger_Fail_01.mp3" aria-pressed="false" aria-label="Play Fail stinger">&#9654;</button><span>CL_Stinger_Fail_01<small>Fail stinger</small></span></li>
+          <li class="sound"><button type="button" data-src="assets/audio/CL_Booster_Charge_01.mp3" aria-pressed="false" aria-label="Play Booster charge and release">&#9654;</button><span>CL_Booster_Charge_01<small>Booster charge and release</small></span></li>
+        </ul>
+        <p class="note">Previews are MP3 for quick streaming. The pack itself ships as lossless WAV.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <h2>How the sounds are made</h2>
+      <div class="grid">
+        <div class="card"><h3>Synthesized from original code</h3><p>Every sound is generated by our own digital signal processing code, using FM and additive synthesis, plucked-string models, filtered noise and a code-generated reverb. No recordings, sample libraries, presets or generative-audio models are used.</p></div>
+        <div class="card"><h3>Reproducible</h3><p>Each file is rendered from saved parameters and seeds in a version-controlled project, so every sound can be traced back to the code and settings that made it.</p></div>
+        <div class="card"><h3>Checked file by file</h3><p>Automated checks run on every file for peak level, loudness, DC offset, clicks, silence at the start and end, and duration, and every sound is reviewed by ear before release.</p></div>
+      </div>
+      <p class="note" style="margin-top:18px">Transparency note: the synthesis code was written with the help of an AI coding assistant. The audio itself is not produced by any AI audio model.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap contact">
+      <div>
+        <h2>Get in touch</h2>
+        <p class="note" style="font-size:16px">Questions about Combo Ladder, support, or business enquiries: <a href="mailto:da-masta12-ngwnpq@mail.grokbot.com">da-masta12-ngwnpq@mail.grokbot.com</a></p>
+      </div>
+      <a class="btn" href="contact.html">Contact page</a>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">&copy; 2026 iRoyalty Studio. All sounds on this site are original works by iRoyalty Studio.</div>
+</footer>
+<script src="assets/player.js"></script>
+</body>
+</html>
